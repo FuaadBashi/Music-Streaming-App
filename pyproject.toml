@@ -1,0 +1,14 @@
+[project]
+name = "music-library"
+version = "1.0.0"
+description = "Console music library with free and premium users, playlists and recommendations."
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
